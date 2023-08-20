@@ -1,0 +1,61 @@
+.s{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 10px;
+}
+
+.s-card{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card-1{
+    background: url(../../assets/uiux.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-2{
+    background: url(../../assets/web.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-3{
+    background: url(../../assets/app.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s-card p{
+    text-align: center;
+    position: relative;
+    top: 270px;
+    font-weight: bold;
+    font-size: 18px;
+    color:  #8fb3ff;
+    background-color: #000;
+}
+
+.s-card:hover{
+    transform: translateX(10px);
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 1040px) {
+    .s{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .s{
+        flex-direction: column;
+    }
+}

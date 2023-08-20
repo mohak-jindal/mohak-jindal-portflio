@@ -1,0 +1,53 @@
+.footer{
+    background-color: #8fb3ff;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #001952;
+}
+
+.socials ul{
+    text-align: center;
+}
+
+.socials ul li{
+    display: inline-block;
+    margin: 5px;
+}
+
+.footer p{
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 2px solid #001952;
+}
+
+.socials ul li a .icon{
+    font-size: 40px;
+}
+
+.insta{
+    color: 	rgb(228, 64, 95);
+}
+.insta:hover{
+    background-color: 	rgb(228, 64, 95);
+    color: #8fb3ff;
+}
+
+.linked{
+    color: rgb(10, 102, 194);
+}
+
+.linked:hover{
+    background-color:  rgb(10, 102, 194);
+    color: #8fb3ff;
+}
+
+.git{
+    color: rgb(64, 120, 192);
+}
+
+.git:hover{
+    background-color: 	 rgb(64, 120, 192);
+    color: #8fb3ff;
+}

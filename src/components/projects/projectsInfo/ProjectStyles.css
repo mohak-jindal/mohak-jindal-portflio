@@ -1,0 +1,26 @@
+.project{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .project{
+        flex-direction: column;
+    }
+
+    .project-2{
+        flex-direction: column-reverse;
+    }
+
+    .project-img img{
+        width: 300px;
+        height: 180px;
+    }
+    .project-text h1{
+        font-size: 20px;
+    }
+}

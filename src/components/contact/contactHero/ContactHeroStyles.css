@@ -1,0 +1,23 @@
+.contact-hero{
+    background: rgba(0, 0, 0, 0.7) url(../../../assets/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.contact-hero-content{
+    position: relative;
+    top: 350px;
+}
+
+.contact-hero-content h1{
+    font-size: 40px;
+}
+
+.contact-hero-content a{
+    color: #fff;
+}

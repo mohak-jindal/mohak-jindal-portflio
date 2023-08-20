@@ -1,0 +1,22 @@
+.serv h1{
+    text-align: center;
+    background-color: #8fb3ff;
+    padding: 5px;
+}
+
+.serv ul{
+    margin: 20px auto;
+    width: 90%;
+}
+.serv ul li{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+.serv ul li span{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #8fb3ff;
+}
+

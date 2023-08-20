@@ -1,0 +1,23 @@
+.service-hero{
+    background: rgba(0, 0, 0, 0.7) url(../../../assets/services.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.service-hero-content{
+    position: relative;
+    top: 350px;
+}
+
+.service-hero-content h1{
+    font-size: 40px;
+}
+
+.service-hero-content a{
+    color: #fff;
+}

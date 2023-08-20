@@ -1,0 +1,38 @@
+.project-banner{
+    padding: 20px;
+    background-color: #8fb3ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project-banner-text p{
+    font-size: 40px;
+    color: #001952;
+    font-weight: 800;
+    margin: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1040px){
+    .project-banner-img img{
+        width: 400px;
+        height: 179px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project-banner{
+        flex-direction: column;
+    }
+
+    .project-banner-text p{
+        font-size: 24px;
+        margin: 20px;
+    }
+
+    .project-banner-img img{
+        width: 300px;
+        height: 134px;
+    }
+}
